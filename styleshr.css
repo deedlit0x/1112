@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.header {
+    height: 119px;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    width: 560px;
+    height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: right;
+    margin-right: 211px;
+    margin-top: 67px;
+}
+
+.menu .search {
+    display: block;
+    margin-top: 10px;
+}
+
+.menu .li {
+    display: block;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 13px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.menu .li:hover {
+    color: #212121;
+    font-weight: 700;
+    box-shadow: inset 0 -2px 0px 0px #212121;
+}
+
+.search:hover {
+    box-shadow: none;
+}
+/* меню 2 */
+
+.menu_2 {
+    background-color: #f4f4f4;
+    width: 1366px;
+    height: 70px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    
+}
+
+.menu_2  {
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.menu_2  a {
+    color:  #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 7px;
+}
+
+.menu_2  a:hover {
+    color: #212121;
+    box-shadow: inset 0 -3px 0px 0px #212121;
+} 
+
+.cont {
+    margin-left: 98px;
+    margin-top: 200px;
+    
+ 
+}
+
+.cont1{
+    height: 640px;
+    width: 570px;
+    float: left;
+}
+
+.cont1 .sec{
+    margin: 40px;
+    
+    
+}
+
+.cont2 {
+    height: 640px;
+    width: 570px;
+    float: right
+}
+
+.cont2 h1{
+    margin-top: 60px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 35.98px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    
+}
+
+.cont2 h2{
+    font-family: Montserrat;
+    color: #e53935;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.cont2 h3{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    font-family: Gotham;
+    color: #212121;
+    font-size: 72px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+   margin-top: 15px;
+
+}
+
+.cont2 .button{
+    margin-top: 30px;
+    margin-left: 10px;
+    display: block;
+    background: red;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 390px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 60px 10px 60px;
+}
+
+.cont2 a:hover {
+    background: red url('img/arrow2.png') no-repeat 320px 20px;
+    background-size: 15px 24px;
+    color: white;
+    
+}
+
+.cont2 p{
+    margin-top: 30px;
+    color: #212121;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    font-family: Playfair+Display;
+}
+
+
+/* products */
+.related_products {
+    height: 1108px;
+    margin-top: 0px;
+}
+
+.explore {
+    display: block;
+    float: right;
+    margin-top: 154px;
+    margin-right: 97px;
+    text-decoration: none;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-right: 20px;
+    margin-bottom: 90px;
+}
+
+.explore:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 140px 5px;
+}
+
+
+.text_inside a {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.text_inside a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+
+.title {
+    height: 218px;
+}
+
+.title h2 {
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+    margin-top: 130px;
+    margin-left: 98px;
+}
+
+.products a {
+    height: 370px;
+}
+
+.products {
+    height: 480px;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto;
+}
+/*конец trending products*/
+
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+.contacts {
+    height: 147px;
+    width: 1169px;
+    margin: 120px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us {
+    width: 221px;
+    height: 147px;
+}
+
+.useful_information {
+    width: 422px;
+    height: 147px;
+}
+
+.stay_in_touch {
+    width: 370px;
+    height: 147px;
+}
+
+.ct {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact_us div {
+    height: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.contact_us div p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.15px;
+    text-transform: none;
+}
+
+.useful_information .common {
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 128px;
+}
+
+.block2 {
+    width: 180px;
+}
+
+.block1, .block2 p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.stay_in_touch p {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+.lsit {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 107px;
+}
+
+form {
+    width: 370px;
+    border-width: 1px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    display: inline-block;
+}
+
+button {
+    border: none;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input[type="email"] {
+    width: 303px;
+    height: 46px;
+    border-width: 0px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    padding-left: 19px;
+}
+
+.copyright {
+    width: 1169px;
+    height: 28px;
+    margin: 59px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p {
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.socialnets {
+    width: 129px;
+    display: flex;
+    justify-content: space-between;
+}
